@@ -1,0 +1,20 @@
+{
+    "name": "ardistory/web-socket",
+    "description": "Test Library Web Socket",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Edp Network G157",
+            "email": "edpkoneksi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">8.0",
+        "cboden/ratchet": "0.4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ardiStory\\": "App"
+        }
+    }
+}
